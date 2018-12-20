@@ -1,4 +1,0 @@
-#!/bin/sh
-set -eux
-java -Xmx3G -jar $snpeff/snpEff.jar eff -c $snpeff/snpEff.config \
-	-o txt GRCh37.72 "$@"
